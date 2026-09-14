@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="ru" id="top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ход — мастерская реставрации механических часов, Санкт-Петербург</title>
+    <meta name="description" content="Реставрация и ремонт механических наручных часов в Петербурге с 2009 года. Переборка, баланс, волосок, ультразвуковая чистка, стекло. Большая Конюшенная, 19.">
+    <meta name="theme-color" content="#F2F0EA">
+    <link rel="canonical" href="https://hod-spb.ru/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="Ход">
+    <meta property="og:title" content="Ход — мастерская реставрации механических часов">
+    <meta property="og:description" content="Санкт-Петербург, с 2009 года. Переборка, баланс, волосок, ультразвук, стекло. Диагностика бесплатная.">
+    <meta property="og:image" content="img/hero-mechanism.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- циферблат: маленькая иконка, нарисованная тем же приёмом, что и остальные -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F2F0EA'/%3E%3Cg fill='none' stroke='%232C2926' stroke-width='1.6'%3E%3Ccircle cx='16' cy='16' r='11'/%3E%3Cpath d='M16 16V8M16 16l5.5 4'/%3E%3C/g%3E%3C/svg%3E">
+
+    <script>document.documentElement.classList.add('js');</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Unbounded:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="page">
+
+    <a class="skip" href="#services">Перейти к содержанию</a>
+
+    <!-- ─────────────────────────── 1. ШАПКА ─────────────────────────── -->
+    <header class="header">
+      <div class="header__inner container">
+        <a class="header__logo" href="#top">
+          <span class="header__word">Ход</span>
+          <span class="header__note">мастерская, с 2009</span>
+        </a>
+
+        <nav class="header__nav" aria-label="Разделы сайта">
+          <a class="header__link" href="#services">Что делаем</a>
+          <a class="header__link" href="#process">Процесс</a>
+          <a class="header__link" href="#works">Работы</a>
+          <a class="header__link" href="#prices">Цены</a>
+        </nav>
+
+        <a class="header__phone num" href="tel:+78122451108">+7 812 245-11-08</a>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ────────────────────── 2. ПЕРВЫЙ ЭКРАН ───────────────────────── -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__grid grid">
+
+            <div class="hero__col reveal">
+              <h1 class="hero__title">
+                <span class="hero__quote" aria-hidden="true">«</span>Механизм не&nbsp;умирает.<br>
+                Он останавливается<span class="hero__mark">.»</span>
+              </h1>
+              <p class="hero__lead">
+                Советские калибры, ГДР, Япония, старая швейцарская механика.
+                Разбираем, моем, регулируем, отдаём с гарантией на год.
+                Диагностика бесплатная — один-два дня.
+              </p>
+
+              <dl class="hero__scope">
+                <div class="hero__scope-col">
+                  <dt class="eyebrow hero__scope-label">Берём</dt>
+                  <dd class="hero__scope-text">
+                    Полёт, Ракета, Восток, Слава, Луч. Ruhla и Glashütte.
+                    Seiko и Citizen до двухтысячных. Швейцарию до 1990-го.
+                    Карманные — тоже, включая Мозера и Буре.
+                  </dd>
+                </div>
+                <div class="hero__scope-col">
+                  <dt class="eyebrow hero__scope-label">Не берём</dt>
+                  <dd class="hero__scope-text">
+                    Кварц, кроме батарейки. Швейцарские калибры после 1990-го —
+                    нет запчастей. Смарт-часы. Реплики: там нечего восстанавливать.
+                  </dd>
+                </div>
+              </dl>
+
+              <ul class="hero__stats">
+                <li class="hero__stat">
+            <span class="hero__value num">16 лет</span>
+            <span class="hero__label">непрерывно, с самого открытия</span>
+                </li>
+                <li class="hero__stat">
+                  <span class="hero__value num">2 400</span>
+                  <span class="hero__label">механизмов прошло через стол</span>
+                </li>
+                <li class="hero__stat">
+                  <span class="hero__value num">11 дней</span>
+                  <span class="hero__label">средний срок ремонта</span>
+                </li>
+              </ul>
+            </div>
+
+            <figure class="hero__figure reveal">
+              <div class="photo photo--portrait">
+                <img class="photo__img" src="img/hero-mechanism.png" width="600" height="800" fetchpriority="high" decoding="async"
+                alt="Разобранный механизм наручных часов: мосты сняты, баланс стоит отдельно на подставке">
+              </div>
+              <figcaption class="hero__caption">
+                Слава 2427, вскрыта после тридцати лет в ящике стола.
+                Мосты автоподзавода сняты, баланс на подставке.
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────── 3. ЧТО ДЕЛАЕМ ──────────────────────────── -->
+      <section class="section section--services" id="services">
+        <div class="container">
+
+          <div class="section__head grid reveal">
+            <p class="eyebrow section__eyebrow">Услуги</p>
+            <h2 class="section__title">Что делаем</h2>
+            <p class="section__note">
+              Всё, что ниже, — про механику. Кварц не чиним, кроме замены батарейки,
+              и то если вы уже пришли.
+            </p>
+          </div>
+
+          <ol class="services">
+
+            <li class="services__item reveal">
+              <div class="services__head">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M9.2 2.4v3.8M14.8 2.4v3.8"/>
+                  <path d="M9.2 6.2h5.6"/>
+                  <path d="M12 6.2v4.4"/>
+                  <circle cx="12" cy="11.9" r="1.3"/>
+                  <path d="M10.9 12.8 5.4 16.6M13.1 12.8l5.5 3.8"/>
+                  <path d="M4 14.9 6.9 18.7M20 14.9 17.1 18.7"/>
+                </svg>
+                <span class="services__num num">01</span>
+              </div>
+              <h3 class="services__name">Полная переборка механизма</h3>
+              <p class="services__meta">
+                <span class="num">от 4 500 ₽</span><span class="services__dot">·</span><span class="num">7–14 дней</span>
+              </p>
+              <p class="services__text">
+                Разбираем до последнего винта, моем в трёх ваннах, меняем масла
+                на Moebius 9010 и 8000. Регулировка в двух положениях, прогон на таймографе пять суток.
+              </p>
+            </li>
+
+            <li class="services__item reveal">
+              <div class="services__head">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <circle cx="12" cy="12" r="7.5"/>
+                  <circle cx="12" cy="12" r="1.75"/>
+                  <path d="M12 4.5v5.75M12 13.75v5.75M4.5 12h5.75M13.75 12h5.75"/>
+                  <path d="M10.6 2.6h2.8v2.4h-2.8z"/>
+                  <path d="M10.6 19h2.8v2.4h-2.8z"/>
+                </svg>
+                <span class="services__num num">02</span>
+              </div>
+              <h3 class="services__name">Баланс, волосок, ось</h3>
+              <p class="services__meta">
+                <span class="num">от 3 200 ₽</span><span class="services__dot">·</span><span class="num">10–21 день</span>
+              </p>
+              <p class="services__text">
+                Правим волосок вручную, если он деформирован, и ставим донорский баланс,
+                если правка уже не помогает. Ось меняем на токарном, накатка своя.
+              </p>
+            </li>
+
+            <li class="services__item reveal">
+              <div class="services__head">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M2.6 6.4h18.8"/>
+                  <path d="M4.6 6.4v13h14.8v-13"/>
+                  <path d="M6.8 10.6 9.4 8.2 12 10.6l2.6-2.4 2.6 2.4"/>
+                  <path d="M6.8 15.4 9.4 13l2.6 2.4 2.6-2.4 2.6 2.4"/>
+                </svg>
+                <span class="services__num num">03</span>
+              </div>
+              <h3 class="services__name">Ультразвуковая чистка и смазка</h3>
+              <p class="services__meta">
+                <span class="num">от 2 400 ₽</span><span class="services__dot">·</span><span class="num">3–5 дней</span>
+              </p>
+              <p class="services__text">
+                Когда механизм живой, но встал от загустевшего масла. Три ванны:
+                мойка, ополаскивание, сушка. Камни не трогаем, если они целы.
+              </p>
+            </li>
+
+            <li class="services__item reveal">
+              <div class="services__head">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M7.6 2.6h8.8v2.6l-2 4.2H9.6l-2-4.2z"/>
+                  <path d="M7.6 5.2h8.8"/>
+                  <circle cx="12" cy="15" r="5.6"/>
+                </svg>
+                <span class="services__num num">04</span>
+              </div>
+              <h3 class="services__name">Стекло, циферблат, стрелки</h3>
+              <p class="services__meta">
+                <span class="num">от 900 ₽</span><span class="services__dot">·</span><span class="num">1–3 дня</span>
+              </p>
+              <p class="services__text">
+                Акрил точим и полируем сами, минерал и сапфир заказываем по размеру.
+                Циферблат не перекрашиваем — снимаем грязь и оставляем возраст.
+              </p>
+            </li>
+
+            <li class="services__item reveal">
+              <div class="services__head">
+                <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M3.5 3.2v17.6"/>
+                  <path d="M3.5 10.4h4.6v3.2H3.5"/>
+                  <path d="M8.1 7.4h6.3v9.2H8.1z"/>
+                  <path d="M10.2 7.4v9.2M12.3 7.4v9.2"/>
+                  <path d="M14.4 9.6h2.4v4.8h-2.4"/>
+                </svg>
+                <span class="services__num num">05</span>
+              </div>
+              <h3 class="services__name">Корпус, заводной узел, браслет</h3>
+              <p class="services__meta">
+                <span class="num">от 1 800 ₽</span><span class="services__dot">·</span><span class="num">2–7 дней</span>
+              </p>
+              <p class="services__text">
+                Головка, вал, прокладки, подгонка задней крышки. Полировкой корпусов
+                занимается Костя, мой сын, — у него это выходит ровнее, чем у меня.
+              </p>
+            </li>
+
+          </ol>
+        </div>
+      </section>
+
+      <!-- ────────────── 4. ПРОЦЕСС · единственная тёмная секция ────────── -->
+      <section class="section section--dark" id="process">
+        <div class="container">
+
+          <div class="section__head grid reveal">
+            <p class="eyebrow section__eyebrow">Как это устроено</p>
+            <h2 class="section__title">Процесс</h2>
+            <p class="section__note">
+              Шесть шагов. Между третьим и четвёртым мы ждём вашего «да» —
+              бывает, что неделю.
+            </p>
+          </div>
+
+          <div class="process__scroller">
+            <ol class="process__list">
+
+              <li class="process__step reveal">
+                <span class="process__num num">01</span>
+                <svg class="icon process__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M7.6 2.6h8.8v2.6l-2 4.2H9.6l-2-4.2z"/>
+                  <path d="M7.6 5.2h8.8"/>
+                  <circle cx="12" cy="15" r="5.6"/>
+                </svg>
+                <h3 class="process__name">Осмотр при вас</h3>
+                <p class="process__text">Десять минут и лупа. Безнадёжный случай видно сразу.</p>
+              </li>
+
+              <li class="process__step reveal">
+                <span class="process__num num">02</span>
+                <svg class="icon process__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M7.2 2.6 11.4 19"/>
+                  <path d="M16.8 2.6 12.6 19"/>
+                  <path d="M11.4 19 12 21.6l.6-2.6"/>
+                  <path d="M8.6 8h6.8"/>
+                  <path d="M9.7 12.4h4.6"/>
+                </svg>
+                <h3 class="process__name">Диагностика</h3>
+                <p class="process__text">День или два. Снимаем мосты, считаем детали.</p>
+              </li>
+
+              <li class="process__step reveal">
+                <span class="process__num num">03</span>
+                <svg class="icon process__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M3.5 3.2v17.6"/>
+                  <path d="M3.5 10.4h4.6v3.2H3.5"/>
+                  <path d="M8.1 7.4h6.3v9.2H8.1z"/>
+                  <path d="M10.2 7.4v9.2M12.3 7.4v9.2"/>
+                  <path d="M14.4 9.6h2.4v4.8h-2.4"/>
+                </svg>
+                <h3 class="process__name">Звонок и смета</h3>
+                <p class="process__text">Называю цену и срок. Дороже сметы не станет.</p>
+              </li>
+
+              <li class="process__step reveal">
+                <span class="process__num num">04</span>
+                <svg class="icon process__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M2.6 6.4h18.8"/>
+                  <path d="M4.6 6.4v13h14.8v-13"/>
+                  <path d="M6.8 10.6 9.4 8.2 12 10.6l2.6-2.4 2.6 2.4"/>
+                  <path d="M6.8 15.4 9.4 13l2.6 2.4 2.6-2.4 2.6 2.4"/>
+                </svg>
+                <h3 class="process__name">Мойка</h3>
+                <p class="process__text">Ультразвук, три ванны, сушка при 45°.</p>
+              </li>
+
+              <li class="process__step reveal">
+                <span class="process__num num">05</span>
+                <svg class="icon process__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <path d="M9.2 2.4v3.8M14.8 2.4v3.8"/>
+                  <path d="M9.2 6.2h5.6"/>
+                  <path d="M12 6.2v4.4"/>
+                  <circle cx="12" cy="11.9" r="1.3"/>
+                  <path d="M10.9 12.8 5.4 16.6M13.1 12.8l5.5 3.8"/>
+                  <path d="M4 14.9 6.9 18.7M20 14.9 17.1 18.7"/>
+                </svg>
+                <h3 class="process__name">Сборка и смазка</h3>
+                <p class="process__text">9415 на анкер, 9010 на ход, 8200 в барабан.</p>
+              </li>
+
+              <li class="process__step reveal">
+                <span class="process__num num">06</span>
+                <svg class="icon process__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true" focusable="false">
+                  <circle cx="12" cy="12" r="7.5"/>
+                  <circle cx="12" cy="12" r="1.75"/>
+                  <path d="M12 4.5v5.75M12 13.75v5.75M4.5 12h5.75M13.75 12h5.75"/>
+                  <path d="M10.6 2.6h2.8v2.4h-2.8z"/>
+                  <path d="M10.6 19h2.8v2.4h-2.8z"/>
+                </svg>
+                <h3 class="process__name">Прогон и выдача</h3>
+                <p class="process__text">Пять суток на стенде, четыре положения.</p>
+              </li>
+
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────── 5. РАБОТЫ ──────────────────────────── -->
+      <section class="section section--works" id="works">
+        <div class="container">
+
+          <div class="section__head grid reveal">
+            <p class="eyebrow section__eyebrow">Из недавнего</p>
+            <h2 class="section__title">Работы</h2>
+            <p class="section__note">
+              Пять из тех, что успели снять. Фотографируем не всё — чаще просто забываем,
+              пока часы не уехали к владельцу.
+            </p>
+          </div>
+
+          <div class="works__grid">
+
+            <figure class="works__item reveal">
+              <div class="photo photo--portrait">
+                <img class="photo__img" src="img/work-polet-2609.png" width="600" height="800" loading="lazy" decoding="async"
+                alt="Часы Полёт 1978 года после реставрации, новое акриловое стекло">
+              </div>
+              <figcaption class="works__caption">
+                <span class="works__brand">Полёт 2609.НА</span>
+                <span class="works__year num">1978</span>
+                <span class="works__done">замена баланса, чистка, новый акрил</span>
+              </figcaption>
+            </figure>
+
+            <figure class="works__item reveal">
+              <div class="photo photo--four-five">
+                <img class="photo__img" src="img/work-vostok-2409.png" width="640" height="800" loading="lazy" decoding="async"
+                alt="Восток Амфибия 1985 года, корпус после переборки и замены прокладок">
+              </div>
+              <figcaption class="works__caption">
+                <span class="works__brand">Восток Амфибия 2409А</span>
+                <span class="works__year num">1985</span>
+                <span class="works__done">переборка, комплект прокладок, проверка на 20 атм</span>
+              </figcaption>
+            </figure>
+
+            <figure class="works__item reveal">
+              <div class="photo photo--portrait">
+                <img class="photo__img" src="img/work-raketa-2614.png" width="600" height="800" loading="lazy" decoding="async"
+                alt="Ракета 2614.Н 1971 года, циферблат оставлен с патиной">
+              </div>
+              <figcaption class="works__caption">
+                <span class="works__brand">Ракета 2614.Н</span>
+                <span class="works__year num">1971</span>
+                <span class="works__done">правка волоска, новый заводной вал</span>
+              </figcaption>
+            </figure>
+
+            <figure class="works__item reveal">
+              <div class="photo photo--wide">
+                <img class="photo__img" src="img/work-seiko-6309.png" width="800" height="500" loading="lazy" decoding="async"
+                alt="Seiko 6309-7040 1982 года: механизм автоподзавода на подставке рядом с корпусом">
+              </div>
+              <figcaption class="works__caption">
+                <span class="works__brand">Seiko 6309-7040</span>
+                <span class="works__year num">1982</span>
+                <span class="works__done">реверсы автоподзавода, чистка, восстановление безеля</span>
+              </figcaption>
+            </figure>
+
+            <figure class="works__item reveal">
+              <div class="photo photo--four-five">
+                <img class="photo__img" src="img/work-slava-2427.png" width="640" height="800" loading="lazy" decoding="async"
+                alt="Слава 2427 1976 года с двойным календарём после ремонта">
+              </div>
+              <figcaption class="works__caption">
+                <span class="works__brand">Слава 2427</span>
+                <span class="works__year num">1976</span>
+                <span class="works__done">два барабана, новая ось баланса, циферблат оставили как есть</span>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ───────────────────────── 6. МАСТЕР ──────────────────────────── -->
+      <section class="section section--master" id="master">
+        <div class="container">
+
+          <div class="section__head grid reveal">
+            <p class="eyebrow section__eyebrow">Кто делает</p>
+            <h2 class="section__title">Мастер</h2>
+            <p class="section__note">
+              Один человек, один стол, один верстак у окна во двор.
+            </p>
+          </div>
+
+          <div class="master grid">
+
+            <figure class="master__figure reveal">
+              <div class="photo photo--four-five">
+                <img class="photo__img" src="img/master.png" width="640" height="800" loading="lazy" decoding="async"
+                alt="Мастер за верстаком с лупой в глазу, перед ним разобранный механизм">
+              </div>
+              <figcaption class="master__caption">Верстак у окна, вторая половина дня — свет с северной стороны.</figcaption>
+            </figure>
+
+            <div class="master__body reveal">
+              <p class="master__text">
+                Меня зовут Сергей Дорофеев. Часами занимаюсь с 1997 года: начинал подмастерьем
+                в мастерской на Садовой, где чинили в основном «Полёты» и «Славу», потом восемь лет
+                собирал будильники Ruhla дома на кухне. Свою мастерскую открыл в апреле 2009-го,
+                в полуподвале на Гороховой. Сюда переехали в 2014-м, когда стало тесно.
+              </p>
+
+              <p class="master__text">
+                Работаю один. По субботам приходит сын — делает корпуса и браслеты.
+              </p>
+
+              <p class="master__text">
+                Швейцарские калибры после 1990 года не берём — нет запчастей, а ставить
+                китайские аналоги в Longines я не буду. Всё, что старше, — пожалуйста:
+                у меня четыре ящика доноров, и за шестнадцать лет там скопилось многое.
+                На ETA 2824 и 2892 запас есть, на Poljot 3133 тоже.
+              </p>
+
+              <p class="master__text">
+                Если механизм не спасти, скажу сразу и денег за диагностику не возьму.
+                Такое бывает примерно раз в месяц. Чаще всего — вода. Реже — попытка
+                починить самому: сорванные шлицы и погнутая ось баланса
+                <a class="link" href="#prices">обходятся дороже</a>, чем обычная переборка.
+              </p>
+
+              <div class="master__sign">
+                <svg class="master__signature" viewBox="0 0 300 84" role="img" aria-label="Подпись: Сергей Дорофеев" fill="none" stroke="currentColor" stroke-width="1.7">
+                  <path d="M52 22c-6-9-19-9-27 1-9 11-10 30-1 38 8 7 19 3 24-6"/>
+                  <path d="M38 44c9-2 18-3 26-2"/>
+                  <path d="M64 62c3-14 8-25 12-25 3 0 3 6 1 12-2 5-4 9-3 12 1 4 6 3 10-3 4-5 7-12 9-18"/>
+                  <path d="M96 40c-2 8-3 15-1 19 2 3 7 1 11-4 4-6 7-13 8-19"/>
+                  <path d="M118 34c-3 10-4 18-2 22 2 3 6 1 10-4"/>
+                  <path d="M150 20h22c11 0 17 8 14 19-3 12-14 21-25 21h-8"/>
+                  <path d="M148 60h44"/>
+                  <path d="M156 60c-2 8-4 12-7 13"/>
+                  <path d="M186 60c-1 8-3 12-6 13"/>
+                  <path d="M204 36c-4 12-5 20-2 23 3 3 8 0 12-6 4-7 6-14 6-19"/>
+                  <path d="M228 36c-4 12-5 20-2 23 4 4 11-1 16-11 3-7 4-13 3-16"/>
+                  <path d="M244 40c8 24 22 30 44 12"/>
+                  <path d="M70 74c46 8 118 6 182-9"/>
+                </svg>
+                <p class="master__signname">Сергей Дорофеев, мастер</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ────────────────────────── 7. ЦЕНЫ ───────────────────────────── -->
+      <section class="section section--prices" id="prices">
+        <div class="container">
+
+          <div class="section__head grid reveal">
+            <p class="eyebrow section__eyebrow">Сколько стоит</p>
+            <h2 class="section__title">Цены</h2>
+            <p class="section__note">
+              Работа без деталей. Доноры и новые запчасти считаются отдельно,
+              чек показываем.
+            </p>
+          </div>
+
+          <div class="prices__scroller reveal">
+            <table class="prices">
+              <caption class="visually-hidden">Стоимость работ по механическим и автоподзаводным калибрам</caption>
+              <thead class="prices__thead">
+                <tr class="prices__row">
+                  <th class="prices__th prices__th--name" scope="col">Услуга</th>
+                  <th class="prices__th" scope="col">Механика</th>
+                  <th class="prices__th" scope="col">Автоподзавод</th>
+                  <th class="prices__th" scope="col">Срок</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Диагностика с разборкой</th>
+                  <td class="prices__cell num" data-label="Механика">бесплатно</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">бесплатно</td>
+                  <td class="prices__cell num" data-label="Срок">1–2 дня</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Полная переборка</th>
+                  <td class="prices__cell num" data-label="Механика">4 500 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">6 200 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">7–14 дней</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Чистка и смазка</th>
+                  <td class="prices__cell num" data-label="Механика">2 400 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">3 100 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">3–5 дней</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Замена баланса в сборе</th>
+                  <td class="prices__cell num" data-label="Механика">3 200 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">3 900 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">10–21 день</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Правка или замена волоска</th>
+                  <td class="prices__cell num" data-label="Механика">2 800 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">3 400 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">от 14 дней</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Заводной вал и головка</th>
+                  <td class="prices__cell num" data-label="Механика">1 800 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">2 100 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">2–7 дней</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Реверсы и ось ротора</th>
+                  <td class="prices__cell num" data-label="Механика">—</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">2 900 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">5–10 дней</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Стекло акриловое, точим сами</th>
+                  <td class="prices__cell num" data-label="Механика">900 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">900 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">1 день</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Стекло минеральное по размеру</th>
+                  <td class="prices__cell num" data-label="Механика">1 400 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">1 400 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">1–3 дня</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Полировка корпуса</th>
+                  <td class="prices__cell num" data-label="Механика">1 800 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">1 800 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">2–4 дня</td>
+                </tr>
+                <tr class="prices__row">
+                  <th class="prices__cell prices__cell--name" scope="row">Подгонка браслета, замена ремешка</th>
+                  <td class="prices__cell num" data-label="Механика">от 600 ₽</td>
+                  <td class="prices__cell num" data-label="Автоподзавод">от 600 ₽</td>
+                  <td class="prices__cell num" data-label="Срок">при вас</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="prices__foot grid reveal">
+            <p class="prices__fine">
+              Цены на 1 сентября 2026 года, пересматриваем раз в год.
+              Если механизм не открывали с восьмидесятых, срок обычно уходит
+              к верхней границе: ржавые винты выкручиваются медленно.
+            </p>
+            <p class="prices__fine">
+              Гарантия — 12 месяцев на работу. Не распространяется на воду,
+              падения и часы, которые до нас уже кто-то собирал.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ────────────────────────── 8. ПОДВАЛ ─────────────────────────── -->
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer__grid grid">
+
+          <div class="footer__col footer__col--brand reveal">
+            <p class="footer__word">Ход</p>
+            <p class="footer__tagline">
+              Мастерская реставрации механических наручных часов.<br>
+              Санкт-Петербург, с 2009 года.
+            </p>
+          </div>
+
+          <div class="footer__col reveal">
+            <p class="eyebrow footer__label">Адрес</p>
+            <p class="footer__text">
+              Большая Конюшенная, 19<br>
+              вход со двора, 2 этаж<br>
+              звонок не работает — стучите
+            </p>
+            <p class="footer__text footer__text--muted">
+              Арка между аптекой и парикмахерской. Во дворе налево,
+              серая дверь без вывески, дальше по лестнице до конца.
+            </p>
+          </div>
+
+          <div class="footer__col reveal">
+            <p class="eyebrow footer__label">Часы работы</p>
+            <p class="footer__hours num">
+              пн — 12:00–19:00<br>
+              вт — 12:00–19:00<br>
+              ср — 12:00–19:00<br>
+              чт — 12:00–19:00<br>
+              пт — 12:00–19:00<br>
+              сб — до 15:00, но лучше позвонить<br>
+              вс — закрыто
+            </p>
+            <p class="footer__text footer__text--muted">
+              Обед примерно с 15:00 до 15:40. Примерно — потому что как пойдёт.
+            </p>
+          </div>
+
+          <div class="footer__col reveal">
+            <p class="eyebrow footer__label">Связь</p>
+            <p class="footer__text">
+              <a class="link num" href="tel:+78122451108">+7 812 245-11-08</a><br>
+              <a class="link" href="https://t.me/hod_spb">@hod_spb</a>
+            </p>
+            <p class="footer__text footer__text--muted">
+              В телеграм можно прислать фото механизма — иногда по нему уже
+              понятно, о чём разговор.
+            </p>
+            <a class="button" href="https://t.me/hod_spb">Написать в телеграм</a>
+          </div>
+
+        </div>
+
+        <p class="footer__bottom">
+          Ход · Большая Конюшенная, 19 · <span class="num">+7 812 245-11-08</span>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  /* Плавный скролл по якорям */
+  var anchors = document.querySelectorAll('a[href^="#"]');
+  for (var i = 0; i < anchors.length; i++) {
+    anchors[i].addEventListener('click', function (e) {
+      var id = this.getAttribute('href');
+      if (!id || id.length < 2) return;
+      var target = document.querySelector(id);
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({
+        behavior: reduce.matches ? 'auto' : 'smooth',
+        block: 'start'
+      });
+      /* фокус переносим следом за скроллом — иначе клавиатура остаётся наверху */
+      if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+      target.focus({ preventScroll: true });
+      if (history.replaceState) history.replaceState(null, '', id);
+    });
+  }
+
+  /* Появление секций */
+  var items = document.querySelectorAll('.reveal');
+  var show = function (el) { el.classList.add('is-visible'); };
+
+  if (reduce.matches || !('IntersectionObserver' in window)) {
+    for (var j = 0; j < items.length; j++) show(items[j]);
+    return;
+  }
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        show(entry.target);
+        io.unobserve(entry.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+
+  for (var k = 0; k < items.length; k++) io.observe(items[k]);
+})();
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WatchRepairShop",
+  "name": "Ход",
+  "description": "Мастерская реставрации механических наручных часов. Работает с 2009 года.",
+  "foundingDate": "2009-04",
+  "telephone": "+7 812 245-11-08",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Большая Конюшенная улица, 19, вход со двора, 2 этаж",
+    "addressLocality": "Санкт-Петербург",
+    "addressCountry": "RU"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "12:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "12:00",
+      "closes": "15:00"
+    }
+  ],
+  "currenciesAccepted": "RUB",
+  "sameAs": ["https://t.me/hod_spb"]
+}
+</script>
+
+  </body>
+</html>
